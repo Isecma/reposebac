@@ -325,6 +325,7 @@ GameObject:
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
   - component: {fileID: 963194231}
+  - component: {fileID: 963194232}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -416,7 +417,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: db038ffab31d16f4699960d3a91ca2f9, type: 3}
   m_Name: 
@@ -428,7 +429,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4043566aace6934499e54f0f2452b5b, type: 3}
   m_Name: 
@@ -437,6 +438,18 @@ MonoBehaviour:
   listadeCubos: []
   factorDeEscalamiento: 0.99
   numCubos: 0
+--- !u!114 &963194232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb6693d30330a646b2073a3d598b4cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1957420917 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4843461418907052428, guid: cd4f3ff0581aef44aac172f8d7f2af57, type: 3}
@@ -563,6 +576,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4843461418907052417, guid: cd4f3ff0581aef44aac172f8d7f2af57, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4843461418907052421, guid: cd4f3ff0581aef44aac172f8d7f2af57, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -610,6 +627,14 @@ PrefabInstance:
     - target: {fileID: 4843461418907052428, guid: cd4f3ff0581aef44aac172f8d7f2af57, type: 3}
       propertyPath: m_Name
       value: Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 4843461418907052430, guid: cd4f3ff0581aef44aac172f8d7f2af57, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4843461418907052431, guid: cd4f3ff0581aef44aac172f8d7f2af57, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd4f3ff0581aef44aac172f8d7f2af57, type: 3}
