@@ -7,8 +7,8 @@ public class ColorCubo : MonoBehaviour
 
     private void Awake()
     {
-        Color c = new Color(Random.value, Random.value, Random.value);
-        this.GetComponent<MeshRenderer>().material.color = c;
+        //Color c = new Color(Random.value, Random.value, Random.value);
+        //this.GetComponent<MeshRenderer>().material.color = c;
     }
     // Start is called before the first frame update
     void Start()
