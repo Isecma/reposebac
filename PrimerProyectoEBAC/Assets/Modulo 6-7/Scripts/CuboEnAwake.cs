@@ -7,8 +7,8 @@ public class CuboEnAwake : MonoBehaviour
     public GameObject Prefabcubo;
     private void Awake()
     {
-        Instantiate<GameObject>(Prefabcubo);
-        Prefabcubo.transform.position = new Vector3(-5,2,0);
+        //Instantiate<GameObject>(Prefabcubo);
+        //Prefabcubo.transform.position = new Vector3(-5,2,0);
     }
     // Start is called before the first frame update
     void Start()
