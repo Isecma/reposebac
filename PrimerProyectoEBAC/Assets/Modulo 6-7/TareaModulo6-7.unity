@@ -336,21 +336,34 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 724956739}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 822e7b37d554f5e42ad82b28204d34a6, type: 3}
+  m_Script: {fileID: 11500000, guid: d456b6e0bc4e7ce49b706392897b0a6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cubo1: {fileID: 0}
-  Cubo2: {fileID: 0}
-  Cubo3: {fileID: 0}
-  Esfera: {fileID: 0}
-  Capsula: {fileID: 0}
+  variableCubo1: 0
+  Esfera: {fileID: 1268112133}
+  Capsula: {fileID: 1291073175}
 --- !u!1 &756685641 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5397633507712691743, guid: a231ec3625e706245a57b0c17f661297, type: 3}
   m_PrefabInstance: {fileID: 952755840}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &756685646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756685641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bae86e4f850dda49b55e373d8345a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableCubo3: 0
+  Cubo1: {fileID: 724956739}
+  Cubo2: {fileID: 1767910424}
 --- !u!1001 &952755840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -432,16 +445,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268112133}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 822e7b37d554f5e42ad82b28204d34a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cubo1: {fileID: 724956739}
-  Cubo2: {fileID: 1767910424}
-  Cubo3: {fileID: 756685641}
-  Esfera: {fileID: 1268112133}
-  Capsula: {fileID: 1291073175}
+--- !u!114 &1268112140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268112133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f36207392cd104393ca0d7d58eccc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableEsfera: 1
 --- !u!1 &1291073175 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 103525801243025324, guid: f09fe1a08679d974cb03322e3fda26e7, type: 3}
@@ -466,16 +487,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291073175}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 822e7b37d554f5e42ad82b28204d34a6, type: 3}
+  m_Script: {fileID: 11500000, guid: afc3d53c6c4133841a9b7670ca4c48cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cubo1: {fileID: 0}
-  Cubo2: {fileID: 0}
-  Cubo3: {fileID: 0}
-  Esfera: {fileID: 0}
-  Capsula: {fileID: 0}
+  variableCapsula: 1
 --- !u!1 &1707356482
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,6 +591,21 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5397633507712691743, guid: a231ec3625e706245a57b0c17f661297, type: 3}
   m_PrefabInstance: {fileID: 2104989949}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1767910429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767910424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec89d8ec069cd242b424ac2e88bbd53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableCubo2: 0
+  Esfera: {fileID: 1268112133}
+  Capsula: {fileID: 1291073175}
 --- !u!1001 &2104989949
 PrefabInstance:
   m_ObjectHideFlags: 0
